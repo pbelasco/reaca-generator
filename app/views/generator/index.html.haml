@@ -1,0 +1,11 @@
+%h1 Gerador de comentários
+
+=form_for :search, :url => [:generator, :search],:method => :get do |f|
+	
+	%h2 Escolha seu reaça preferido
+	=f.select :author, :Autor => @authors.map { |a| [a.name]}
+
+	%h2 Escolha um tema
+	=f.select :theme, :Tema => @tags.map { |a| [a.title, a.id] }
+
+	=f.submit

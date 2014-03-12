@@ -1,0 +1,25 @@
+%h1 Listing samples
+
+%table
+  %tr
+    %th Body
+    %th Fonte
+    %th Autor
+    %th Tags
+    %th
+    %th
+    %th
+
+  - @samples.each do |sample|
+    %tr
+      %td= sample.body[0..80]
+      %td= sample.url
+      %td= sample.author
+      %td= sample.tags
+      %td= link_to 'Show', sample
+      %td= link_to 'Edit', edit_sample_path(sample)
+      %td= link_to 'Destroy', sample, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Sample', new_sample_path

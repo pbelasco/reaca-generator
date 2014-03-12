@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+	%b Body
+	= @sample.body[0..80]
+%p
+	%b Source
+	= link_to @sample.url, "Fonte"
+
+= link_to 'Edit', edit_sample_path(@sample)
+\|
+= link_to 'Back', samples_path

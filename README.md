@@ -1,4 +1,3 @@
-rea-a-generator
-===============
+Projeto de gerador de comentários, usando uma implementação de gerador de sentenças com cadeia de markov.
+GPL3
 
-APP gerador de sentenças baseados em bancos de textos
