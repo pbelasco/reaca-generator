@@ -49,6 +49,9 @@ GEM
     execjs (2.0.2)
     formtastic (2.2.1)
       actionpack (>= 3.0)
+    foundation-rails (5.2.0.0)
+      railties (>= 3.1.0)
+      sass (>= 3.2.0)
     haml (4.0.5)
       tilt
     haml-rails (0.5.3)
@@ -85,7 +88,6 @@ GEM
       mongo (~> 1.8)
       plucky (~> 0.6.5)
     multi_json (1.9.0)
-    open-uri-cached (0.0.5)
     ox (1.9.4)
     plucky (0.6.6)
       mongo (~> 1.5)
@@ -149,6 +151,7 @@ DEPENDENCIES
   bson_ext
   coffee-rails (~> 4.0.0)
   formtastic
+  foundation-rails
   haml-rails
   hpricot
   inherited_resources
@@ -156,7 +159,6 @@ DEPENDENCIES
   jquery-rails
   marky_markov!
   mongo_mapper (>= 0.13.0.beta2)
-  open-uri-cached
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc

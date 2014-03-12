@@ -40,8 +40,7 @@ gem 'inherited_resources'
 gem 'marky_markov', :git => "https://github.com/zolrath/marky_markov.git"
 
 gem 'hpricot'
-gem "open-uri-cached"
-
+gem 'foundation-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
