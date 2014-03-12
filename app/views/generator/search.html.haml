@@ -12,7 +12,18 @@
 
 		=f.submit :class => [:button,:expand,:radius,:round], :value => "Gerar Comentário"
 
-	%blockquote.sentenca= @sentence
+	%blockquote.sentenca
+		\"
+		= @sentence
+		\"
+
+		.clear
+
+		.small
+			\-
+			=@author_name
+	.clear
+
 	/.capitalize!
 
 

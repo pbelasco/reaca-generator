@@ -4,22 +4,37 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700&subset=latin-ext,latin);
 
+h1, h2 {
+	font-family: 'Roboto Slab', serif;
+}
+
 body {
 	background: url(bg.jpg);
 	position:fixed; top:0; left:0; width:100%; height:100%;
+		font-family: 'Roboto Slab', serif;
+
 }
 
 #bg {
 
 }
 
+select {
+	height: 3.3125rem;
+	font-size: 2em;
+}
+
 .panel {
 	background-color: #fff;
-	padding: 1em;
+	padding: 2em;
 	margin:1em auto;
 	width: 70%;
 }
 blockquote.sentenca {
-	font-family: 'Roboto Slab', serif;
 	font-size: 2em;
+	.small {
+		font-size: 1em;
+		color: #444;
+		float:right;
+	}
 }
